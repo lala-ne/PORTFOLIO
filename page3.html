@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ảnh Content</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif; /* Sử dụng font chữ Arial hoặc các font không chữ serif khác */
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around; /* Các hình ảnh được căn giữa và có khoảng cách đều nhau */
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .image-container > * {
+            flex-grow: 2; /* Hình ảnh mở rộng để đảm bảo chúng có kích thước bằng nhau */
+            max-width: 600px; /* Giới hạn kích thước tối đa của mỗi hình ảnh */
+            margin: 10px; /* Khoảng cách giữa các hình ảnh */
+        }
+        .image-container img,
+        .image-container iframe {
+            width: 100%;
+            height: auto;
+            display: block; /* Đảm bảo hình ảnh hiển thị đúng */
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px; /* Khoảng cách từ nút về trang chính đến hình ảnh */
+            text-decoration: none; /* Xóa gạch chân */
+            color: #333; /* Màu chữ */
+            padding: 10px 20px; /* Kích thước của nút */
+            background-color: #f0f0f0; /* Màu nền */
+            border-radius: 5px; /* Độ cong của góc */
+            transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+        }
+        .back-link:hover {
+            background-color: #ddd; /* Màu nền khi di chuột qua */
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <div class="image-container">
+        <img src="D:\PORTFOLIO\PORTFOLIO\browny-v1.0\assets\images\content\CONTENT2.png" alt="Hình ảnh PNG">
+
+        <img src="D:\PORTFOLIO\PORTFOLIO\browny-v1.0\assets\images\content\CONTENT1.png" alt="Hình ảnh PNG">
+    </div>
+    <a href="index.html" class="back-link">Quay lại Trang Chính</a>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSR: EVNSPC - “Khi cần ta có, khi khó ta dang tay”</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif; /* Sử dụng font chữ Arial hoặc các font không chữ serif khác */
+        }
+        .video-container {
+            max-width: 800px; /* Giới hạn chiều rộng của video */
+            margin: 0 auto; /* Canh giữa video */
+            font-family: Arial, sans-serif; /* Sử dụng font chữ Arial hoặc các font không chữ serif khác */
+        }
+        h1, h2 {
+            text-align: center; /* Căn giữa cả h1 và h2 */
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around; /* Các hình ảnh được căn giữa và có khoảng cách đều nhau */
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .image-container > * {
+            flex-grow: 2; /* Hình ảnh mở rộng để đảm bảo chúng có kích thước bằng nhau */
+            max-width: 500px; /* Giới hạn kích thước tối đa của mỗi hình ảnh */
+            margin: 10px; /* Khoảng cách giữa các hình ảnh */
+        }
+        .image-container img,
+        .image-container iframe {
+            width: 100%;
+            height: auto;
+            display: block; /* Đảm bảo hình ảnh hiển thị đúng */
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px; /* Khoảng cách từ nút về trang chính đến hình ảnh */
+            text-decoration: none; /* Xóa gạch chân */
+            color: #333; /* Màu chữ */
+            padding: 10px 20px; /* Kích thước của nút */
+            background-color: #f0f0f0; /* Màu nền */
+            border-radius: 5px; /* Độ cong của góc */
+            transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+        }
+        .back-link:hover {
+            background-color: #ddd; /* Màu nền khi di chuột qua */
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <!-- Nhúng video từ YouTube -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hzF08acbInw?si=pzgSItGv1wbvMprD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <h1>EVNSPC - “Khi cần ta có, khi khó ta dang tay”</h1>
+    <h2>
+        EVNSPC - “Khi cần ta có, khi khó ta dang tay” là một dự án nhằm phục vụ cho môn học Trách nhiệm xã hội của doanh nghiệp. Dự án được thực hiện trong 3 tháng bao gồm thời gian lên ý tưởng và thực hiện. Thông qua dự án, bản thân tôi đã có được nhiều góc nhìn hơn về việc xây dựng một kế hoạch CSR cho doanh nghiệp và cũng có cơ hội được trải nghiệm thực hiện dự án trên chính ý tưởng của mình.
+    </h2>
+    <a href="index.html" class="back-link">Quay lại Trang Chính</a>
+</body>
+</html>
